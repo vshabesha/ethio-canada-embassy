@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethio-Canada Embassy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Embassy Logo">
+        <h1>Ethio-Canada Embassy</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to the Ethio-Canada Embassy</h2>
+      <p>Your gateway to Canada. Explore visa options, immigration programs, and consular services.</p>
+      <a href="#register" class="btn">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-passport"></i>
+          <h3>Visa Applications</h3>
+          <p>Apply for tourist, student, or work visas.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-plane"></i>
+          <h3>Immigration Programs</h3>
+          <p>Explore Express Entry and Family Sponsorship.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-handshake"></i>
+          <h3>Consular Services</h3>
+          <p>Passport renewal, notary services, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Form -->
+  <section id="register" class="registration">
+    <div class="container">
+      <h2>Register to Visit Canada</h2>
+      <form id="registration-form">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="purpose">Purpose of Visit:</label>
+        <select id="purpose" name="purpose" required>
+          <option value="tourist">Tourist Visa</option>
+          <option value="student">Student Visa</option>
+          <option value="work">Work Visa</option>
+          <option value="immigration">Immigration</option>
+        </select>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <p id="form-message"></p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</p>
+        <p><i class="fas fa-phone"></i> +251 123 456 789</p>
+        <p><i class="fas fa-envelope"></i> info@ethiocanadaembassy.org</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Ethio-Canada Embassy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
